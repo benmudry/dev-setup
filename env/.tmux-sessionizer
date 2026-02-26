@@ -1,0 +1,5 @@
+#!/bin/bash
+
+tmux new-window -dn scratch
+nvim .
+clear
