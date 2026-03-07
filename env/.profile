@@ -1,0 +1,1 @@
+~/.local/scripts/keyboard-remap
