@@ -1,7 +1,15 @@
 #!/bin/zsh
 
 sudo dnf install -y go
-git clone https://github.com/nvm-sh/nvm.git $HOME/.nvm
 
+sudo dnf copr enable jdxcode/mise
+sudo dnf install mise
+
+echo 'eval "$(mise activate zsh)"' >> ~/.zshrc
 source $HOME/.zshrc
-nvm install --lts
+mise use --global node@lts
+
+# git clone https://github.com/nvm-sh/nvm.git $HOME/.nvm
+#
+# source $HOME/.zshrc
+# nvm install --lts
