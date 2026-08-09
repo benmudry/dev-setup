@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "deny": [
+      "CronCreate",
+      "CronDelete",
+      "CronList",
+      "DesignSync",
+      "NotebookEdit",
+      "PushNotification",
+      "RemoteTrigger",
+      "ScheduleWakeup"
+    ]
+  },
+  "model": "opus",
+  "disableClaudeAiConnectors": true,
+  "disableBundledSkills": true,
+  "disableRemoteControl": true,
+  "disableWorkflows": true,
+  "disableArtifact": true,
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline-command.sh"
+  },
+  "effortLevel": "medium",
+  "autoMemoryEnabled": false,
+  "theme": "dark"
+}
