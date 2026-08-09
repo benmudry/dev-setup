@@ -11,7 +11,7 @@
       "ScheduleWakeup"
     ]
   },
-  "model": "opus",
+  "autoMemoryEnabled": false,
   "disableClaudeAiConnectors": true,
   "disableBundledSkills": true,
   "disableRemoteControl": true,
@@ -21,7 +21,8 @@
     "type": "command",
     "command": "bash ~/.claude/statusline-command.sh"
   },
+  "model": "opus",
   "effortLevel": "medium",
-  "autoMemoryEnabled": false,
+  "outputStyle": "no-slop",
   "theme": "dark"
 }
