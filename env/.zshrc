@@ -102,6 +102,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias go-coverage="go test -coverprofile=coverage.out && go tool cover -html=coverage.out"
+
 source ~/.zsh_profile
 
 eval "$(mise activate zsh)"
